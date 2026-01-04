@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Pocket - Play & Win</title>
+    <style>
+        :root {
+            --ludo-red: #e74c3c;
+            --ludo-blue: #3498db;
+            --ludo-green: #2ecc71;
+            --ludo-yellow: #f1c40f;
+            --dark: #2c3e50;
+        }
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: var(--dark);
+        }
+        .container {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 500px;
+            border-top: 10px solid var(--ludo-red);
+        }
+        .logo {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+        .l { color: var(--ludo-red); }
+        .u { color: var(--ludo-blue); }
+        .d { color: var(--ludo-green); }
+        .o { color: var(--ludo-yellow); }
+
+        h1 { margin-top: 0; }
+        p { color: #666; line-height: 1.6; }
+
+        .badge {
+            display: inline-block;
+            background: var(--dark);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            margin-top: 20px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        .badge:hover {
+            transform: scale(1.05);
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <span class="l">L</span><span class="u">u</span><span class="d">d</span><span class="o">o</span> Pocket
+        </div>
+        <h1>Coming Soon</h1>
+        <p>The ultimate Ludo experience for your pocket is currently under development. Get ready to roll the dice and win big!</p>
+        
+        <div style="margin-top: 20px;">
+            <span style="color: var(--ludo-red);">●</span>
+            <span style="color: var(--ludo-blue);">●</span>
+            <span style="color: var(--ludo-green);">●</span>
+            <span style="color: var(--ludo-yellow);">●</span>
+        </div>
+
+        <a href="mailto:contact@ludopocket.site" class="badge">Contact Us</a>
+
+        <div class="footer">
+            &copy; 2026 ludopocket.site | All Rights Reserved
+        </div>
+    </div>
+
+</body>
+</html>
